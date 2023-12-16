@@ -254,7 +254,7 @@ module.exports = {
     {
       id: 'cpp',
       name: 'C++',
-      description: 'A high-level, general-purpose programming language',
+      description: 'A high-level, general-purpose programming language.',
       color: '#659AD2',
     },
     {
@@ -268,6 +268,12 @@ module.exports = {
       name: 'javascript',
       description: 'JavaScript is an object-oriented programming language used alongside HTML and CSS to give functionality to web pages.',
       color: '#f0da50',
+    },
+    {
+      id: 'nodejs',
+      name: 'Node.js',
+      description: 'Node.js is a tool for executing JavaScript in a variety of environments.',
+      color: '#90c53f',
     },
     {
       id: 'typescript',
@@ -298,6 +304,12 @@ module.exports = {
       name: 'css',
       description: 'CSS is used to style the HTML element and to give a very fancy look for the web application.',
       color: '#43ace0',
+    },
+    {
+      id: 'rxjs',
+      name: 'RxJS',
+      description: 'RxJS is a library for reactive programming using Observables, for asynchronous programming.',
+      color: '#b7178c',
     },
   ],
 };

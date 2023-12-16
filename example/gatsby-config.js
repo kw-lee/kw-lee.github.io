@@ -14,6 +14,13 @@ module.exports = {
         icon: './static/favicon.png',
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: `${__dirname}/src/images`,
+      },
+    },
   ],
   siteMetadata: config,
   pathPrefix: config.pathPrefix,

@@ -1,0 +1,8 @@
+.rs-tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.rs-tags > .rs-col {
+    padding: 5px;
+}
