@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://kw-lee.github.io/sitemap-index.xml
+Host: https://kw-lee.github.io
