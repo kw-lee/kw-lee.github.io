@@ -6,3 +6,6 @@
 .rs-tags > .rs-col {
     padding: 5px;
 }
+.rs-flex-box-grid {
+    overflow-x: scroll;
+}

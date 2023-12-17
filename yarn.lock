@@ -6801,7 +6801,7 @@ gatsby-telemetry@^4.12.1:
     lodash "^4.17.21"
     node-fetch "^2.6.11"
 
-"gatsby-theme-academic@file:/Users/kwlee/dev/personal/homepage/gatsby-theme-academic":
+gatsby-theme-academic@*, "gatsby-theme-academic@file:/Users/kwlee/dev/personal/homepage/gatsby-theme-academic":
   version "2.1.0"
   resolved "file:gatsby-theme-academic"
   dependencies:

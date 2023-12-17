@@ -4,7 +4,7 @@ import { graphql } from 'gatsby';
 import _ from 'lodash';
 import PropTypes from 'prop-types';
 import React from 'react';
-import { getSrc } from "gatsby-plugin-image"
+import { getSrc } from 'gatsby-plugin-image';
 
 // import Footer from '../../components/PageLayout/Footer';
 // import Header from '../../components/PageLayout/Header';
@@ -13,7 +13,7 @@ import SEO from 'gatsby-theme-academic/src/components/Seo';
 import TagCard from 'gatsby-theme-academic/src/components/TagCard';
 import { useSiteMetadata } from 'gatsby-theme-academic/src/utils/hooks';
 
-const Tags = ({ data }) => {
+function Tags({ data }) {
   const { allFile: { edges } } = data;
   const rawTags = data.allMdx.edges
     .map((edge) => edge.node.frontmatter.tags)
@@ -51,7 +51,7 @@ const Tags = ({ data }) => {
       </Row>
     </>
   );
-};
+}
 
 Tags.propTypes = {
   data: PropTypes.shape({
