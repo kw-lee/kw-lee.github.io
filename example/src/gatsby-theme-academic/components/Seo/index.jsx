@@ -11,7 +11,7 @@ import Utils from 'gatsby-theme-academic/src/utils/pageUtils';
 
 const detailsQuery = graphql`
   query DefaultSEOQuery {
-    file(name: { eq: "facebook-icon" }) {
+    file(name: { eq: "avatar" }) {
       childImageSharp {
         gatsbyImageData(
           layout: FIXED
