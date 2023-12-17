@@ -1,6 +1,6 @@
 ---
 title: "Scalable and optimal Bayesian inference for sparse covariance matrices via screened beta-mixture prior."
-tags: ["preprint"]
+tags: ["preprint", "asymptotic", "Bayesian", "covariance"]
 # date: 2023-02-23
 # venue: IEEE Transactions on Semiconductor Manufacturing
 path: "research/lee2024scalable"

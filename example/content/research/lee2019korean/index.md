@@ -1,6 +1,6 @@
 ---
 title: "Korean speech recognition using deep learning"
-tags: ["Korean speech recognition", "end to end deep learning", "attention", "Bayesian neural network"]
+tags: ["NN", "Bayesian", "NLP"]
 date: "2019-12-31"
 path: "research/lee2019korean"
 venue: "The Korean Journal of Applied Statistics"

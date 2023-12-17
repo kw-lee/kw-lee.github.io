@@ -1,6 +1,6 @@
 ---
 title: "Asymptotic properties for Bayesian neural network in Besov space"
-tags: ["Bayesian neural network", "posterior consistency", "optimal rate", 'nonparametric regression']
+tags: ["NN", "Bayesian", "asymptotic", "nonparametric"]
 date: 2022-12-01
 path: "research/lee2022asymptotic"
 priority: 99

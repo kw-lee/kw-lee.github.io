@@ -1,6 +1,6 @@
 ---
 title: "Bayesian nonparametric classification for incomplete data with a high missing rate: an application to semiconductor manufacturing data."
-tags: ["Missing data imputation", "classification", "semiconductor manufacturing", "yield estimation", "Gaussian mixture model", "nonparametric Bayesian model"]
+tags: ["Bayesian", "ML", "nonparametric"]
 date: 2023-05-06
 venue: IEEE Transactions on Semiconductor Manufacturing
 path: "research/park2023bayesian"

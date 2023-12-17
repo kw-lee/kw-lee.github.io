@@ -1,6 +1,6 @@
 ---
 title: "Prediction of spatio-temporal air quality index data"
-tags: ["AQI data", "descriptive model", "neural networks", "random forest", "spatio-temporal big data"]
+tags: ["ML", "spatio-temporal"]
 venue: "Communications for Statistical Applications and Methods"
 path: "research/kim2023prediction"
 date: "2023-03-31"
