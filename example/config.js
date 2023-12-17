@@ -38,6 +38,9 @@ module.exports = {
     }, {
       url: 'https://github.com/kw-lee',
       icon: ['fab', 'github'],
+    }, {
+      url: 'https://snubayes.org',
+      icon: ['fab', 'wordpress'],
     },
   ],
   // facebook: 'https://www.facebook.com/rolwin.monteiro',
