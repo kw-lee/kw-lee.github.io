@@ -33,6 +33,10 @@ module.exports = {
   },
   social: [
     {
+      url: 'https://linkedin.com/in/kyeongwon-lee',
+      icon: ['fab', 'linkedin'],
+    },
+    {
       url: '/resume.pdf',
       icon: ['ai', 'cv'],
     }, {
