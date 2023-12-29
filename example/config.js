@@ -9,7 +9,7 @@ module.exports = {
     'Hi there! I am a Ph.D. candidate studying Bayesian statistics at Department of Statistics, Seoul National University. I have been studying all topics related to Bayesian statistics, such as Bayesian computation and asymptotic properties.',
     'I love studying with a computer as well as pencel and paper!, I enjoy swimming, photography, and programming (including web and tweak for my devices, which is far from my major 😄).',
   ],
-  avatar: 'sudal.png',
+  avatar: 'kwlee.jpeg',
   professions: [
     'Ph.D. Candidate',
     'Bayesian Statistician',
