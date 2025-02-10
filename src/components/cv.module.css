@@ -1,0 +1,121 @@
+.linkList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem;
+  margin-top: var(--space-1);
+  width: 80%;
+}
+
+.listItem {
+  width: 100%;
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding: 0 1rem;    
+  box-sizing: border-box;
+  flex: 1 1 calc(100% - 70px);
+}
+
+.listItemLink {
+  color: var(--color-text);
+  font-weight: normal;
+  margin-left: var(--space-2);
+  text-decoration: none;
+}
+
+
+.listItemIcon {
+  height: 1.1em;
+  width: 1.1em;
+}
+
+
+/* on mobile, topbox flex-direction: column */
+
+.topBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  margin-top: var(--space-1);
+}
+
+.profileImage {
+  display: flex;
+  width: 300px;
+  /* object-fit: cover; */
+}
+
+@media (max-width: 768px) {
+  .topBox {
+    flex-direction: column;
+  }
+}
+
+.titleBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro {
+  max-width: none;
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: var(--line-height-loose);
+}
+
+.title {
+  margin-bottom: var(--space-1);
+}
+
+.description {
+  max-width: none;
+  font-size: 0.8rem;
+}
+
+div.cvBox {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-top: var(--space-1);
+  width: 100%;
+}
+
+.cvBox > h2 {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+}
+
+.cvBox > h3 {
+  margin-top: 0.2rem;
+  margin-bottom: 0rem;
+}
+
+.cvDescription {
+  max-width: 100%;
+}
+
+.borderLine {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+li {
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+}
+
+ul ul {
+  margin-top: 0;
+}
+
+.rightAlign {
+  text-align: right;
+}
