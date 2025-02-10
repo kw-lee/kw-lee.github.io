@@ -1,0 +1,48 @@
+.linkList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  margin-top: var(--space-1);
+}
+
+.listItem {
+  width: 100%;
+  max-width: 200px;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding: 0 1rem;    
+  box-sizing: border-box;
+}
+
+.listItemLink {
+  color: var(--color-text);
+  font-weight: normal;
+  margin-left: var(--space-2);
+  text-decoration: none;
+}
+
+.listItemIcon {
+  height: 1.1em;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.intro {
+  max-width: none;
+  font-size: 0.8rem;
+  line-height: var(--line-height-loose);
+}
+
+.title {
+  margin-bottom: var(--space-1);
+}
+
+.description {
+  max-width: none;
+  font-size: 0.8rem;
+}
