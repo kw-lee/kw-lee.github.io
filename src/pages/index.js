@@ -23,7 +23,7 @@ const IndexPage = () => (
       </h1>
       <p className={styles.intro}>
         <b>Researcher</b> <br />
-        Department of Mathematics, University of Maryland, College Park
+        Department of Mathematics, University of Maryland
       </p>
       </div>
       <div className={styles.linkList}>

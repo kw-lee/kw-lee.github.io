@@ -26,7 +26,7 @@ const CvPage = () => (
       </h1>
       <p className={styles.intro}>
         <b>Researcher</b> <br />
-        Department of Mathematics, University of Maryland, College Park
+        Department of Mathematics, University of Maryland
       </p>
       <div className={styles.linkList}>
         {links.map(link => (
@@ -46,7 +46,7 @@ const CvPage = () => (
       <div className={styles.cvBox}>
         <h2>About Me</h2>
         <hr className={styles.borderLine}></hr>
-        <p className={styles.cvDescription}>I'm a postdoctoral researcher in the Department of Mathematics at the University of Maryland, College Park. I obtained my Ph.D. from the Department of Statistics at Seoul National University, advised by Prof. Jaeyong Lee. My research focuses on Bayesian statistics, including Bayesian nonparametrics, asymptotic properties, and Bayesian computation.</p>
+        <p className={styles.cvDescription}>I'm a postdoctoral researcher in the Department of Mathematics at the University of Maryland. I obtained my Ph.D. from the Department of Statistics at Seoul National University, advised by Prof. Jaeyong Lee. My research focuses on Bayesian statistics, including Bayesian nonparametrics, asymptotic properties, and Bayesian computation.</p>
       </div>
       <div className={styles.cvBox}>
         <h2>Education</h2>
