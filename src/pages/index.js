@@ -16,7 +16,7 @@ const IndexPage = () => (
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt=""
-        style={{ marginBottom: `var(--space-3)` }}
+        style={{ marginBottom: `var(--space-3)`, borderRadius: `5%` }}
       />
       <h1 className={styles.title}>
         Kyeongwon Lee

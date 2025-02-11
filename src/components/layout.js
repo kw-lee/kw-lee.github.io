@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
           margin: `0 auto`,
           maxWidth: `var(--size-content)`,
           padding: `2rem`,
-          minHeight: `97vh`,
+          minHeight: `97dvh`, // Use dvh
         }}
       >
         <main>{children}</main>
