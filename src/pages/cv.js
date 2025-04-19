@@ -102,6 +102,7 @@ const CvPage = () => (
         <h2>Conference Presentation</h2>
         <hr className={styles.borderLine}></hr>
         <ul>
+          <li>Bayesian Sparse Neural Networks in General Besov Spaces with Intrinsic Dimensions (Accepted as a contributed talk at the 14th International Conference on Bayesian Nonparametrics, scheduled for presentation in June 2025.)</li>
           <li>Asymptotic analysis of Bayesian neural networks for supervised learning
             <ul>
               <li>2024 Bayesian Young Statisticians Meeting</li>
@@ -163,6 +164,11 @@ const CvPage = () => (
               <li>Data Science with R/Python</li>
             </ul>
           </li>
+        </ul>
+        <h3>Volunteer Teaching Experience</h3>
+        <ul>
+          <li>Volunteer Tutor, College of Natural Sciences, Seoul National University, Korea, 2014 - 2015</li>
+          <li>Educational Volunteer, C:rite Edu (Social Service Course, Seoul National University), Korea, 2015</li>
         </ul>
       </div>
     <div className={styles.cvBox}>
