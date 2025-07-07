@@ -47,3 +47,42 @@
   max-width: none;
   font-size: 0.8rem;
 }
+
+.langSwitch {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.langSwitch a {
+  padding: 5px 8px;
+  text-decoration: none;
+  color: #0074d9;
+  transition: all 0.2s ease;
+}
+
+.langSwitch a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.backLink {
+  margin-top: 40px;
+}
+
+.backLink a {
+  color: #0074d9;
+  text-decoration: none;
+}
+
+.backLink a:hover {
+  text-decoration: underline;
+}

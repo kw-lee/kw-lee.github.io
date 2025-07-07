@@ -1,47 +1,23 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
+import { navigate } from "gatsby"
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
-import links from "../components/link"
+const IndexRedirectPage = () => {
+  React.useEffect(() => {
+    const userLang = typeof window !== 'undefined' && window.navigator ? 
+      window.navigator.language || window.navigator.userLanguage : 'en';
+    
+    if (userLang.startsWith('ko')) {
+      navigate('/ko/');
+    } else {
+      navigate('/en/');
+    }
+  }, []);
 
-const IndexPage = () => (
-  <Layout>
-    <div className={styles.textCenter}>
-      <StaticImage
-        src="../images/kwlee.jpeg"
-        loading="eager"
-        width={400}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt=""
-        style={{ marginBottom: `var(--space-3)`, borderRadius: `5%` }}
-      />
-      <h1 className={styles.title}>
-        Kyeongwon Lee
-      </h1>
-      <p className={styles.intro}>
-        <b>Researcher</b> <br />
-        Department of Mathematics, University of Maryland
-      </p>
-      </div>
-      <div className={styles.linkList}>
-        {links.map(link => (
-          <div key={link.url} className={styles.listItem}>
-            {link.icon && <link.icon className={styles.listItemIcon} />}
-            <span><a
-              className={styles.listItemLink}
-              href={`${link.url}`}
-            >
-              {link.text}
-            </a></span>
-          </div>
-        ))}
-      </div>
-  </Layout>
-)
+  return (
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+      <p>Redirecting...</p>
+    </div>
+  );
+};
 
-export const Head = () => <Seo title="Home" />
-
-export default IndexPage
+export default IndexRedirectPage;

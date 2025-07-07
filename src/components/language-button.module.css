@@ -1,0 +1,21 @@
+.langSwitch {
+  margin: 15px 0;
+  font-size: 0.9rem;
+}
+
+.langSwitch a {
+  padding: 3px 8px;
+  text-decoration: none;
+  color: #0074d9;
+  transition: all 0.2s ease;
+}
+
+.langSwitch a:hover {
+  text-decoration: underline;
+}
+
+.langSwitch .active {
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}

@@ -1,18 +1,19 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Layout from "../../components/layout"
+import Seo from "../../components/seo"
 
 import { StaticImage } from "gatsby-plugin-image"
-import * as styles from "../components/cv.module.css"
-import links from "../components/link"
+import * as styles from "../../components/cv.module.css"
+import links from "../../components/link"
+import LanguageButton from "../../components/language-button"
 
-const CvPage = () => (
+const CvPage = ({ location }) => (
   <Layout>
       <div className={styles.topBox}>
       <StaticImage
-        src="../images/kwlee.jpeg"
+        src="../../images/kwlee.jpeg"
         loading="eager"
         width={300}
         quality={95}
@@ -28,6 +29,7 @@ const CvPage = () => (
         <b>Postdoctoral Researcher</b> <br />
         Department of Mathematics, University of Maryland
       </p>
+      <LanguageButton currentPath={location?.pathname} />
       <div className={styles.linkList}>
         {links.map(link => (
           <div key={link.url} className={styles.listItem}>
@@ -295,7 +297,7 @@ const CvPage = () => (
           <code>React</code>)
         </li>
         <li>
-          <code>Docker</code>, <code>Git</code> and parallel computing.
+          <code>Docker</code>, <code>Git</code>, <code>OpenMP</code>, <code>CUDA</code>, and other tools
         </li>
       </ul>
       <h3>Softwares</h3>
@@ -339,7 +341,9 @@ const CvPage = () => (
         </li>
       </ul>
     </div>
-      <Link to="/">Go back to the homepage</Link>
+    <div className={styles.navButtons}>
+      <Link to="/ko/" className={styles.navButton}>Back to Home</Link>
+    </div>
   </Layout>
 )
 

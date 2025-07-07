@@ -1,0 +1,18 @@
+{
+  "email": {
+    "text": "kwlee@umd.edu",
+    "description": "Email"
+  },
+  "cv": {
+    "text": "Curriculum Vitae",
+    "description": "CV"
+  },
+  "github": {
+    "text": "Github",
+    "description": "Github"
+  },
+  "linkedin": {
+    "text": "LinkedIn",
+    "description": "LinkedIn"
+  }
+}

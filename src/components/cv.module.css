@@ -31,7 +31,6 @@
   width: 1.1em;
 }
 
-
 /* on mobile, topbox flex-direction: column */
 
 .topBox {
@@ -67,6 +66,7 @@
   font-size: 0.8rem;
   text-align: center;
   line-height: var(--line-height-loose);
+  margin-bottom: var(--space-1);
 }
 
 .title {
