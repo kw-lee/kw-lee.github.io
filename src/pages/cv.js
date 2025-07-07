@@ -34,7 +34,8 @@ const CvPage = () => (
             {link.icon && <link.icon className={styles.listItemIcon} />}
             <span><a
               className={styles.listItemLink}
-              href={`${link.description}` === "CV" ? "/cv.pdf" : `${link.url}`}
+              // href={`${link.description}` === "CV" ? "/cv.pdf" : `${link.url}`}
+              href={link.url}
             >
               {link.text}
             </a></span>
@@ -95,14 +96,19 @@ const CvPage = () => (
         </ul>
         <h3>In preparation</h3>
         <ul>
-          <li>K. Lee, <b>K. Lee</b>, K. Lee, and S. Jo (2025+). bspcov: An R Package for Bayesian Sparse Covariance Matrix Estimation. (<a href="https://github.com/statjs/bspcov">GitHub</a>)</li>
+          <li><b>K.Lee</b>, L.Lin, J. Park, and S. Jeong (2025+). Posterior Contraction for Sparse Neural Networks in Besov Spaces with Intrinsic Dimensionality. [<a href="https://arxiv.org/abs/2506.19144">Arxiv</a>]</li>
+          <li><b>K. Lee</b>, K. Lee, K. Lee, and S. Jo (2025+). bspcov: An R Package for Bayesian Sparse Covariance Matrix Estimation. Submitted.</li>
         </ul>
       </div>
       <div className={styles.cvBox}>
         <h2>Conference Presentation</h2>
         <hr className={styles.borderLine}></hr>
         <ul>
-          <li>Bayesian Sparse Neural Networks in General Besov Spaces with Intrinsic Dimensions (Accepted as a contributed talk at the 14th International Conference on Bayesian Nonparametrics, scheduled for presentation in June 2025.)</li>
+          <li>Bayesian Sparse Neural Networks in General Besov Spaces with Intrinsic Dimensions
+            <ul>
+              <li>2025 14th International Conference on Bayesian Nonparametrics</li>
+            </ul>
+          </li>
           <li>Asymptotic analysis of Bayesian neural networks for supervised learning
             <ul>
               <li>2024 Bayesian Young Statisticians Meeting</li>
@@ -129,6 +135,7 @@ const CvPage = () => (
         <ul>
           <li>University of Maryland, College Park, USA, 2024 - Present
             <ul>
+              <li>STAT401: Applied Statistics and Probability II</li>
               <li>STAT410: Introduction to Probability Theory</li>
             </ul>
           </li>
@@ -153,7 +160,7 @@ const CvPage = () => (
           <li>Seoul National University, Korea
             <ul>
               <li>Statistics</li>
-              <li>Statistics Lab</li>
+              <li>Statistics Lab [<a href="https://kw-lee.github.io/033_020_010-2018fall">course</a>]</li>
               <li>Mathematical Statistics</li>
               <li>Theories of Statistics</li>
               <li>Advanced Bayesian Statistics</li>
@@ -290,6 +297,11 @@ const CvPage = () => (
         <li>
           <code>Docker</code>, <code>Git</code> and parallel computing.
         </li>
+      </ul>
+      <h3>Softwares</h3>
+      <ul>
+        <li>R Package <code>bspcov</code>: Bayesian Sparse Estimation of a Covariance Matrix. [<a href="https://github.com/statjs/bspcov">GitHub</a>] [<a href="https://cran.r-project.org/web/packages/bspcov/index.html">CRAN</a>]</li>
+        <li>This website is built with <code>Gatsby</code> and <code>React</code>. [<a href="https://github.com/kw-lee/kw-lee.github.io">GitHub</a>]</li>
       </ul>
       <h3>Operating systems</h3>
       <p>
