@@ -44,7 +44,7 @@ const Layout = ({ children }) => {
             justifyContent: `center`,
           }}
         >
-          Updated at {new Date().toDateString()} {` `} &nbsp; &#124;  &nbsp; {` `} <a href="https://github.com/kw-lee/kw-lee.github.io">Source Code</a>
+          Updated at {process.env.GATSBY_BUILD_DATE} {` `} &nbsp; &#124;  &nbsp; {` `} <a href="https://github.com/kw-lee/kw-lee.github.io">Source Code</a>
         </footer>
     </>
   )

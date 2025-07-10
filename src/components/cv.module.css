@@ -120,3 +120,24 @@ ul ul {
 .rightAlign {
   text-align: right;
 }
+
+.navButtons {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.navButton {
+  background-color: #f2f2f2;
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.navButton:hover {
+  background-color: #e0e0e0;
+}
