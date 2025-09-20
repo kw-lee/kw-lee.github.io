@@ -87,19 +87,14 @@ const CvPage = ({ location }) => (
       <div className={styles.cvBox}>
         <h2>Publications</h2>
         <hr className={styles.borderLine}></hr>
-
-        <h3>Accepted or published</h3>
         <ul>
-          <li>K. Lee, S. Jo, <b>K. Lee</b>, and J. Lee (2024). Scalable and optimal Bayesian inference for sparse covariance matrices via screened beta-mixture prior. Bayesian Analysis, 1(1), 1-28.</li>
+          <li><b>K.Lee</b>, L.Lin, J. Park, and S. Jeong (2025+). Posterior Contraction for Sparse Neural Networks in Besov Spaces with Intrinsic Dimensionality. <i>Advances in Neural Information Processing Systems</i>, Accepted. [<a href="https://arxiv.org/abs/2506.19144">Arxiv</a>]</li>
+          <li>K. Lee, S. Jo, <b>K. Lee</b>, and J. Lee (2025+). Scalable and optimal Bayesian inference for sparse covariance matrices via screened beta-mixture prior. Bayesian Analysis, Accepted.</li>
+          <li><b>K. Lee</b>, K. Lee, K. Lee, and S. Jo (2025). bspcov: An R Package for Bayesian Sparse Covariance Matrix Estimation. <i>SoftwareX</i>, 32.</li>
           <li>S. Park, <b>K. Lee</b>, D. Jeong, H. Ko, and J. Lee. (2023). Bayesian nonparametric classification for incomplete data with a high missing rate: an application to semiconductor manufacturing data. <i>IEEE Transactions on Semiconductor Manufacturing</i>, 36(2), 170-179.</li>
           <li>K. Kim., M. Ma, and <b>K. Lee</b> (2023). Prediction of spatio-temporal AQI data. <i>Communications for Statistical Applications and Methods</i>, 30(2), 119-133.</li>
           <li><b>K. Lee</b>, and J. Lee. (2022). Asymptotic properties for Bayesian neural network in Besov space. <i>Advances in Neural Information Processing Systems</i>, 35.</li>
           <li>S. Lee, S. Han, S. Park, <b>K. Lee</b>, and J. Lee. (2019). Korean speech recognition using deep learning. <i>The Korean Journal of Applied Statistics</i>, 32(2), 213-227.</li>
-        </ul>
-        <h3>In preparation</h3>
-        <ul>
-          <li><b>K.Lee</b>, L.Lin, J. Park, and S. Jeong (2025+). Posterior Contraction for Sparse Neural Networks in Besov Spaces with Intrinsic Dimensionality. [<a href="https://arxiv.org/abs/2506.19144">Arxiv</a>]</li>
-          <li><b>K. Lee</b>, K. Lee, K. Lee, and S. Jo (2025+). bspcov: An R Package for Bayesian Sparse Covariance Matrix Estimation. Submitted.</li>
         </ul>
       </div>
       <div className={styles.cvBox}>
