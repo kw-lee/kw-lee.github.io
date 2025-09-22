@@ -49,7 +49,7 @@ const CvPage = ({ location }) => (
       <div className={styles.cvBox}>
         <h2>About Me</h2>
         <hr className={styles.borderLine}></hr>
-        <p className={styles.cvDescription}>I'm a postdoctoral researcher in the Department of Mathematics at the University of Maryland. I obtained my Ph.D. from the Department of Statistics at Seoul National University, advised by Prof. Jaeyong Lee. My research focuses on Bayesian statistics, including Bayesian nonparametrics, asymptotic properties, and Bayesian computation.</p>
+        <p className={styles.cvDescription}>I am currently working as a postdoctoral researcher with Professor Lizhen Lin in the Department of Mathematics at the University of Maryland. I obtained my Ph.D. degree in Statistics from Seoul National University under the supervision of Professor Jaeyong Lee. I am working on various areas of Bayesian statistics, particularly high-dimensional Bayesian models, Bayesian nonparametrics, asymptotic theory, and Bayesian computational methods.</p>
       </div>
       <div className={styles.cvBox}>
         <h2>Education</h2>

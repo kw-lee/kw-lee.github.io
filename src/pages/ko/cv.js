@@ -48,7 +48,7 @@ const CvPage = ({ location }) => (
       <div className={styles.cvBox}>
         <h2>소개</h2>
         <hr className={styles.borderLine}></hr>
-        <p className={styles.cvDescription}>메릴랜드 대학교 수학과에서 박사후연구원으로 근무하고 있습니다. 서울대학교 통계학과에서 이재용 교수님의 지도하에 박사 학위를 취득했습니다. 주 연구분야는 베이즈 비모수 방법론, 점근적 성질, 베이즈 계산 방법이며, 베이즈 통계학 전 분야에 관심을 가지고 있습니다.</p>
+        <p className={styles.cvDescription}>메릴랜드 대학교 수학과 Lizhen Lin 교수님 연구팀에서 박사후연구원으로 근무하고 있습니다. 서울대학교 통계학과에서 이재용 교수님의 지도하에 박사 학위를 취득했습니다. 주요 연구 분야는 고차원 베이즈 모형, 비모수 베이즈 방법론, 점근 이론, 베이즈 계산 방법 등이며 베이즈 통계학 전반에 관심을 가지고 연구하고 있습니다.</p>
       </div>
       <div className={styles.cvBox}>
         <h2>학력</h2>
