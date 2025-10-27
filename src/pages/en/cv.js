@@ -78,9 +78,9 @@ const CvPage = ({ location }) => (
         <hr className={styles.borderLine}></hr>
         <ul>
           <li>2023 T-SM Best Paper Award, IEEE Transactions on Semiconductor Manufacturing, 2023</li>
-          <li>Award for Excellence in Teaching, Department of Statistics, Seoul National University, 2023</li>
+          <li>Award for Excellence in Teaching, Department of Statistics, Seoul National University, 2024</li>
           <li>Top Graduate Student Paper Award, Journal of the Korean Statistical Society Summer Conference, 2023</li>
-          <li>Award for Excellence in Teaching, Department of Statistics, Seoul National University, 2020</li>
+          <li>Award for Excellence in Teaching, Department of Statistics, Seoul National University, 2021</li>
           <li>The Next Generation of Academics in the Field of Fundamental Science (학문후속세대 장학금), Seoul National University, 2019</li>
         </ul>
       </div>
@@ -88,8 +88,8 @@ const CvPage = ({ location }) => (
         <h2>Publications</h2>
         <hr className={styles.borderLine}></hr>
         <ul>
-          <li><b>K.Lee</b>, L.Lin, J. Park, and S. Jeong (2025+). Posterior Contraction for Sparse Neural Networks in Besov Spaces with Intrinsic Dimensionality. <i>Advances in Neural Information Processing Systems</i>, Accepted. [<a href="https://arxiv.org/abs/2506.19144">Arxiv</a>]</li>
           <li>K. Lee, S. Jo, <b>K. Lee</b>, and J. Lee (2025+). Scalable and optimal Bayesian inference for sparse covariance matrices via screened beta-mixture prior. Bayesian Analysis, Accepted.</li>
+          <li><b>K.Lee</b>, L.Lin, J. Park, and S. Jeong (2025). Posterior Contraction for Sparse Neural Networks in Besov Spaces with Intrinsic Dimensionality. <i>Advances in Neural Information Processing Systems</i>, Accepted. [<a href="https://arxiv.org/abs/2506.19144">Arxiv</a>]</li>
           <li><b>K. Lee</b>, K. Lee, K. Lee, and S. Jo (2025). bspcov: An R Package for Bayesian Sparse Covariance Matrix Estimation. <i>SoftwareX</i>, 32.</li>
           <li>S. Park, <b>K. Lee</b>, D. Jeong, H. Ko, and J. Lee. (2023). Bayesian nonparametric classification for incomplete data with a high missing rate: an application to semiconductor manufacturing data. <i>IEEE Transactions on Semiconductor Manufacturing</i>, 36(2), 170-179.</li>
           <li>K. Kim., M. Ma, and <b>K. Lee</b> (2023). Prediction of spatio-temporal AQI data. <i>Communications for Statistical Applications and Methods</i>, 30(2), 119-133.</li>
